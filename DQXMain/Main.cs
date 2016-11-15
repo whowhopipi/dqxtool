@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DQXMain
 {
-    public partial class Form1 : Form
+    public partial class DQX : Form
     {
-        public Form1()
+        public DQX()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
